@@ -1,0 +1,18 @@
+{
+  "name": "jorvuld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fysh",
+  "license": "ISC",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^12.4.1",
+    "js": "^0.1.0",
+    "lodash": "^4.17.20",
+    "underscore": "^1.11.0"
+  }
+}
