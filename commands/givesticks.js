@@ -22,7 +22,7 @@ function canIHaveAStick() {
       0: "a powered",
       1: "a charged",
       2: "a precise",
-      3: "a infused",
+      3: "an infused",
       4: "a defending",
       5: "a training",
       6: "a sharpened",
