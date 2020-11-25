@@ -28,32 +28,8 @@ function canIHaveAStick() {
       6: "a sharpened",
       7: "a decisive"
     };
-    // Inline if-statement. If 1, make it lightning, else make it resto.
-    // var stickList = {
-    //     1: "lightning staff",
-    //     5: "restoration staff",
-    //     10: "ice staff",
-    //     15: "inferno staff",
-    //     0: "bow",
-    //     2: "bow",
-    //     3: "bow",
-    //     4: "bow",
-    //     6: "bow",
-    //     7: "bow",
-    //     8: "bow",
-    //     9: "bow",
-    //     11: "bow",
-    //     12: "bow",
-    //     13: "bow",
-    //     14: "bow",
-    //     16: "bow",
-    //     17: "bow",
-    //     18: "bow",
-    //     19: "hiti bow"
-    // };
     // Roll a die to see what trait to give it.
     var trait = weaponTraits[_.random(8)];
-    // var stickType = stickList[_.random(20)];
     // Use a switch statement to figure out what stick to give.
     var stickType = whichStick(_.random(20));
     var stickString = "Okay, you can have " + trait + " " + stickType + ".";
