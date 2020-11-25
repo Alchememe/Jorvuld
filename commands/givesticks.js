@@ -52,7 +52,7 @@ function canIHaveAStick() {
         19: "hiti bow"
     };
     // Roll a die to see what trait to give it.
-    var trait = weaponTraits[_.random(7)];
+    var trait = weaponTraits[_.random(8)];
     var stickType = stickList[_.random(20)];
     var stickString = "Okay, you can have " + trait + " " + stickType + "";
     return stickString;
