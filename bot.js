@@ -55,6 +55,9 @@ client.on('message', message => {
 
     } else if (command ==='letters'){
         client.commands.get('letters').execute(message, args)
+        
+    } else if (command ==='cure'){
+        client.commands.get('cure').execute(message, args)
     }
 });
 
