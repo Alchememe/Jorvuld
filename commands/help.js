@@ -8,7 +8,7 @@ module.exports = {
             fields: [
               {
                 name: "Command List",
-                value: "j!help - Gives you a list of all my comands\nj!soup - Zaan!\nj!givesticks - Ask me for a stick, I may even drop a resto\nj!jorvy - I will say one of my many favorable lines"
+                value: "j!help - Gives you a list of all my comands\nj!soup - Zaan!\nj!givesticks - Ask me for a stick, I may even drop a resto\nj!jorvy - I will say one of my many favorable lines\nj!cure - Cure me of this terrible disease Zaan gave me"
               },
               {
                   name: "Lore Finder",
