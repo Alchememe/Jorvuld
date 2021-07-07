@@ -29,7 +29,7 @@ function canIHaveAStick() {
       7: "a decisive"
     };
     // Roll a die to see what trait to give it.
-    var trait = weaponTraits[_.random(8)];
+    var trait = weaponTraits[_.random(7)];
     // Use a switch statement to figure out what stick to give.
     var stickType = whichStick(_.random(20));
     var stickString = "Okay, you can have " + trait + " " + stickType + ".";
